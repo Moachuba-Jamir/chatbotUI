@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(26, 1, 65) !important;
+}
+
+.form-container{
+    width: 50% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-label, .greeting, .technical{
+    color: white;
+}
+
+
+.interface1Container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.response{
+    color: white;
+    padding-left: 10%;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+.welcome{
+    padding-right: 3%;
+}
+
+.shit {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    /*Removethe+sign*/top: 70%;
+    /*Setto50%tocentervertically*/left: 50%;
+    /*Setto50%tocenterhorizontally*/transform: translate(-50%, -50%);
+    /*Adjustby-50%tofullycenter*/-webkit-transform: translate(-50%, -50%);
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 2%;
+    transition: all 300ms ease-in;
+    -webkit-transition: all 300ms ease-in;
+    -moz-transition: all 300ms ease-in;
+    -ms-transition: all 300ms ease-in;
+    -o-transition: all 300ms ease-in;
+}
+
+.show{
+    display: block;
+}
+
+.shit:hover{
+    cursor: pointer;
+}
+
+
+.subDetails{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.subDetails a{
+    color: aquamarine;
+}
